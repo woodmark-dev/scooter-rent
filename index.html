@@ -10,7 +10,7 @@
 
 <body>
   <div id="wrapper">
-    <section class="header">
+    <header>
       <div>
         <img src="/asset/logo.svg" alt="logo">
       </div>
@@ -21,12 +21,12 @@
           <li><a href="#">Contact Us</a></li>
         </ul>
       </nav>
-      <menu>
-        <li><a href="#">Login</a></li>
-        <li><button>Book Scooter</button></li>
-      </menu>
-    </section>
-    <section class="hero">
+      <div>
+        <a href="#">Login</a>
+        <button>Book Scooter</button>
+      </div>
+    </header>
+    <div class="hero">
       <div class="left-side">
         <div>
           <div>
@@ -36,34 +36,33 @@
               took a galley of type and scrambled it to make a type specimen book. </p>
           </div>
           <div>
-            <p class="background-circle"></p>
+            <p role="presentation" class="background-circle"></p>
           </div>
         </div>
         <div>
           <img src="/asset/left-leaf.svg" alt="A green leaf in on a white background">
-          <div>
-            <input type="text" placeholder="Location">
+          <form aria-label="Book a scooter ride">
+            <input type="text" placeholder="Location" aria-label="Fill in your location">
             <span></span>
-            <input type="text" placeholder="Pickup Date">
+            <input type="text" placeholder="Pickup Date" aria-label="Fill in your pickup date">
             <span></span>
-            <input type="text" placeholder="Kilometers">
+            <input type="text" placeholder="Kilometers" aria-label="Fill in distance in kilometers">
             <button>Book Scooter</button>
-          </div>
+          </form>
         </div>
       </div>
       <div class="right-side">
-        <img src="/asset/bigger-oval.svg" alt="" class="bigger-oval">
-        <img src="/asset/smaller-oval.svg" alt="smaller-oval" class="smaller-oval">
-        <p class="moon-like-cap"></p>
-        <img src="/asset/colored-oval.svg" alt="" class="colored-oval">
-        <img src="/asset/hero-img.svg" alt="" class="hero-img">
-        <img src="/asset/right-leaf.svg" alt="" class="right-leaf">
+        <img src="/asset/bigger-oval.svg" alt="Bigger oval-shaped background image" class="bigger-oval">
+        <img src="/asset/smaller-oval.svg" alt="Smaller oval-shaped background image" class="smaller-oval">
+        <p role="presentation" class="moon-like-cap"></p>
+        <img src="/asset/colored-oval.svg" alt="Colored oval-shaped background image" class="colored-oval">
+        <img src="/asset/hero-img.svg" alt="Image of a man riding a bike" class="hero-img">
+        <img src="/asset/right-leaf.svg" alt="Green leaf" class="right-leaf">
         <div>
-          <p>Starting From</p>
-          <p>$40</p>
+          <p> <span>Starting From</span> <span>$40</span></p>
         </div>
       </div>
-    </section>
+    </div>
   </div>
 </body>
 
